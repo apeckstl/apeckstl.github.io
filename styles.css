@@ -30,6 +30,12 @@ a:visited, a {
     color: black;
 }
 
+.page a {
+	position: relative;
+	top: 10px;
+	margin-left: 15px;
+}
+
 header a:hover {
     background-color: #022B3A;
     color: white;
