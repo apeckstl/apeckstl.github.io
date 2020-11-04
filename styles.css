@@ -1,0 +1,96 @@
+/* https://coolors.co/022b3a-1f7a8c-bfdbf7-e1e5f2-ffffff */
+
+h1, h2 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: xxx-large;
+}
+
+h3, h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: italic;
+    margin: 0;
+}
+
+li, p, a {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header a {
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+a:visited, a {
+    color: black;
+}
+
+header a:hover {
+    background-color: #022B3A;
+    color: white;
+}
+
+header .current {
+    background-color: #022B3A;
+    color: white;
+}
+
+body {
+    width: 60%;
+    margin: auto;
+    background-color: #BFDBF7;
+}
+
+.page {
+    background-color: white;
+}
+
+/* I found this suggestion on how to hide semantic content but let it be visible to screen-readers at
+    this site: https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/ */
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+section {
+    padding: 0 15px;
+}
+
+section:last-child {
+    padding: 0 15px 15px 15px;
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #022B3A 2px solid;
+}
+
+header nav, h1 {
+    display: inline-block;
+    height: 100%
+}
+
+.resume h3, h4 {
+    display: inline-block;
+}
+
+.resume ul {
+    margin-top: 0;
+}
+
+.resume h4 {
+    float: right;
+}
