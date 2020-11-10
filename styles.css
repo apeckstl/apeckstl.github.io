@@ -13,8 +13,11 @@ h1 {
 
 h3, h4 {
     font-family: 'Noto Sans JP', sans-serif;
-    font-style: italic;
     margin: 0;
+}
+
+h3 {
+    font-style: italic;
 }
 
 li, p, a {
@@ -95,6 +98,11 @@ header nav, h1 {
 
 .resume ul {
     margin-top: 0;
+}
+
+.resume li {
+    margin-bottom: 10px;
+    line-height: 1;
 }
 
 .resume h4 {
